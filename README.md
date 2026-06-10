@@ -30,13 +30,31 @@
 
 ## Tech Stack
 
-予定している構成です。
-
 - Next.js
 - TypeScript
 - React
-- CSS Modules or Tailwind CSS
+- CSS
 - Vercel
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+ローカルで起動したら、ブラウザで以下を開きます。
+
+```text
+http://localhost:3000
+```
+
+## Scripts
+
+- `npm run dev` - 開発サーバーを起動
+- `npm run build` - 本番ビルド
+- `npm run start` - 本番ビルドを起動
+- `npm run lint` - Next.jsのlintを実行
 
 ## Planned Pages
 
@@ -59,4 +77,3 @@ https://www.excellent-shop-utaya.com/
 現在は初期準備中です。
 
 まずはREADMEを作成し、GitHubリポジトリのファーストコミットを行うところから始めます。
-
