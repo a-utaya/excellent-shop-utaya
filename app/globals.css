@@ -211,8 +211,7 @@ h3 {
   margin-top: 36px;
 }
 
-.primaryButton,
-.secondaryButton {
+.primaryButton {
   display: inline-flex;
   min-height: 58px;
   align-items: center;
@@ -231,13 +230,6 @@ h3 {
 
 .primaryButton span {
   font-size: 20px;
-}
-
-.secondaryButton {
-  border: 1px solid rgba(20, 58, 90, 0.22);
-  background: rgba(255, 255, 255, 0.72);
-  color: var(--blue-dark);
-  box-shadow: 0 10px 30px rgba(13, 42, 66, 0.1);
 }
 
 .noticeBand {
@@ -513,8 +505,7 @@ h3 {
   }
 
   .heroActions,
-  .primaryButton,
-  .secondaryButton {
+  .primaryButton {
     width: 100%;
   }
 

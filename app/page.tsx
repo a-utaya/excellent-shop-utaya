@@ -45,7 +45,7 @@ export default function Home() {
           <span className="brandMark">う</span>
           <span>
             <strong>エクセレントショップうたや</strong>
-            <small>福岡市近郊の屋根・雨どい工事</small>
+            <small>福岡県全域・近隣エリアの屋根・雨どい工事</small>
           </span>
         </a>
         <nav className="nav" aria-label="主要ナビゲーション">
@@ -71,18 +71,15 @@ export default function Home() {
         <div className="heroShade" />
         <div className="heroContent">
           <p className="eyebrow">屋根工事・雨樋工事・リフォーム工事</p>
-          <h1>福岡市近郊の屋根・雨どい工事は、職人本人に直接相談。</h1>
+          <h1>福岡県全域・近隣エリアに対応。屋根・雨どい工事は職人本人へ。</h1>
           <p className="lead">
-            福岡市内と近郊エリアへお伺いします。見積もり無料。
+            福岡を中心に、県外の近隣エリアまでお伺いします。見積もり無料。
             お問い合わせ後の営業電話はいたしません。
           </p>
           <div className="heroActions">
             <a className="primaryButton" href={`tel:${phoneNumber.replaceAll("-", "")}`}>
               電話で相談する
               <span>{phoneNumber}</span>
-            </a>
-            <a className="secondaryButton" href="#contact">
-              相談前に確認する
             </a>
           </div>
         </div>
@@ -175,7 +172,8 @@ export default function Home() {
           <p className="eyebrow">Company</p>
           <h2>会社概要</h2>
           <p>
-            福岡市内と近郊エリアで、屋根工事、雨どい工事、リフォーム工事を行っています。
+            福岡県全域を中心に、県外の近隣エリアでも、屋根工事、雨どい工事、
+            リフォーム工事を行っています。
           </p>
         </div>
         <dl className="companyTable">
